@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /mnt/c/Users/jaunm -name \"python*.exe\" 2>/dev/null | grep -v WindowsApps | head -10; find /mnt/c/ProgramData -name \"python*.exe\" 2>/dev/null | head -5)",
+      "Read(//mnt/c/Users/**)",
+      "Read(//mnt/c/**)"
+    ]
+  }
+}

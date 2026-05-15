@@ -3,10 +3,10 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nombre_paquete"
+name = "MacroPulse"
 version = "0.1.0"
-authors = [{name = "autor1", email = "correo@correo.com"}]
-description = "Descripción del proyecto"
+authors = [{name = "Michael Betancourt", email = "msbetancourtge@unal.edu.co"},{name = "Luis Felipe Tolosa", email = "ltolosas@unal.edu.co"},{name = "Adriana Valderrama", email = "adrianavalderrama11@gmail.com"}]
+description = "Predecir retornos mensuales de 9 activos usando un LSTM que integra señales NLP de la FED, variables macroeconómicas (niveles + deltas) y retornos históricos, para alimentar un optimizador de portafolios de Markowitz."
 requires-python = ">3.8"
 dependencies = [
     "numpy"
